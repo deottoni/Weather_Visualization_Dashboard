@@ -1,6 +1,7 @@
 # Web_Visualization_Weather
 
-### Please visit the website at: https://deottoni.github.io/Web_Visualization_Weather/
+### Please visit the website at: https://deottoni.github.io/Weather_Visualization_Dashboard/
+
 
 ## Website Requirements
 
@@ -13,18 +14,28 @@ The website must consist of 7 pages total, including:
 * A landing page containing:
   * An explanation of the project.
   * Links to each visualizations page.
+![summary](Resources/assets/images/summary.png)
+
 * Four visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
+![temp](Resources/assets/images/temp.png)  
+![humidity](Resources/assets/images/humidity.png)  
+![cloudiness](Resources/assets/images/cloudiness.png)  
+![wind](Resources/assets/images/wind.png)  
+  
 * A "Comparisons" that:
   * Contains all of the visualizations on the same page so we can easily visually compare them.
   * Uses a bootstrap grid for the visualizations.
-    * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+  * The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+![comparisons](Resources/assets/images/comparisons.png)    
+
 * A "Data" page that:
   * Displays a responsive table containing the data used in the visualizations.
-    * The table must be a bootstrap table component.
-    * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. You may use a csv-to-html table conversion tool, e.g. [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm).
+  * The table must be a bootstrap table component.
+  * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. You may use a csv-to-html table conversion tool, e.g. [ConvertCSV](http://www.convertcsv.com/csv-to-html.htm).
+![raw_data](Resources/assets/images/raw_data.png) 
 
 The website must, at the top of every page, have a navigation menu that:
 
