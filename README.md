@@ -1,4 +1,4 @@
-# Web_Visualization_Weather
+# Weather Visualization Dashboard
 
 ### Please visit the website at: https://deottoni.github.io/Weather_Visualization_Dashboard/
 
