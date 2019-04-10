@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   
   
-    <title>Weather Analysis</title>
+    <title>Latitude Analysis</title>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
@@ -33,7 +33,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparison.html">Comparison</a>
+                        <a class="nav-link" href="comparison.html">Comparisons</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="data.html">Data</a>
@@ -50,16 +50,21 @@
             <div class="box box-left">
                 <h1>Summary: Latitude vs. X</h1>
                 <div>
-                    <img src="Resources/assets/images/Fig1.png" alt="fig1" height="300" width="400">    
+                    <img src="Resources/assets/images/lat_temp.png" alt="Temperature" height="300" width="400">    
                 </div>
                 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit delectus nihil, nesciunt commodi optio enim, placeat quibusdam officiis nostrum cumque dignissimos sunt libero. A dolorum aliquid hic assumenda harum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit delectus nihil, nesciunt commodi optio enim, placeat quibusdam officiis nostrum cumque dignissimos sunt libero. A dolorum aliquid hic assumenda harum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit delectus nihil, nesciunt commodi optio enim, placeat quibusdam officiis nostrum cumque dignissimos sunt libero. A dolorum aliquid hic assumenda harum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi suscipit delectus nihil, nesciunt commodi optio enim, placeat quibusdam officiis nostrum cumque dignissimos sunt libero. A dolorum aliquid hic assumenda harum.</p>
+                <p>
+                        The purpose of this website is to present a series of visualizations on the correlation of a city's latitude with multiple factors such as temperature, wind speed, humidity, and cloudiness.
+                </p>
+                <p>
+                        The data source used in this project comes from a previous project called <a href="https://github.com/deottoni/weatherpy">WeatherPy</a>, where I've used python (pandas, matplotlib, datetime, numpy), as well as data from <a href="https://openweathermap.org/api">Open Weather Map API</a> to analyse the data and create the plots. Then I used HTML, CSS, and Bootstrap to create this website.
+                </p>
+                <p>
+                    You can see more details on each analysis by visiting the "<a href="comparison.html">Comparisons</a>" tab on the navigation bar.
+                </p>
 
             </div>
-            
+
         </div>
             <div class="col-md-4">
                 <div class="box box-right">
@@ -68,18 +73,18 @@
                     </h1>
                     <div class="row">
                         <a href="temp.html"> 
-                            <img src="Resources/assets/images/Fig1.png" alt="Temperature" height="150" width="200">
+                            <img src="Resources/assets/images/lat_temp.png" alt="Temperature" height="150" width="200">
                         </a>
                         <a href="humidity.html"> 
-                            <img src="Resources/assets/images/Fig2.png" alt="Humidity" height="150" width="200">   
+                            <img src="Resources/assets/images/lat_humidity.png" alt="Humidity" height="150" width="200">   
                         </a>    
                     </div>
                     <div class="row">
                         <a  href="cloudiness.html"> 
-                        <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" height="150" width="200">  
+                        <img src="Resources/assets/images/lat_cloudiness.png" alt="Cloudiness" height="150" width="200">  
                         </a>
                         <a  href="wind.html"> 
-                        <img src="Resources/assets/images/Fig4.png" alt="Wind" height="150" width="200"> 
+                        <img src="Resources/assets/images/lat_wind.png" alt="Wind" height="150" width="200"> 
                         </a>  
                     </div>
 
