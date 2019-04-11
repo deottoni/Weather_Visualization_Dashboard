@@ -1,8 +1,4 @@
 
-/* .navbar {
-    color: blueviolet;
-    padding: 30px;
-} */
 body {
     background-color: whitesmoke;
     font-family: 'Lucida Sans';
@@ -22,9 +18,10 @@ body {
 
 .box-single {
     background-color: white;
+    overflow: scroll;
     border-radius: 10px;
-    padding: 20px; 
-    margin: 20px 80px;
+    padding: 10px; 
+    margin: 20px 100px;
 }
 
 .box-left {
@@ -43,53 +40,76 @@ body {
 
 .box-left img{
     float: left;
+    width: 400px;
+    height: 300px;
 }
 
-.box-right img{
+
+.side-img {
     display: inline-block;
     padding: 5px;
+    width: 200px;
+    height: 150px;
 }
 
-.box-single img{
-    float: left;
+
+
+.img-comparison img{
+    display: inline-block;
+    padding: 5px;
+    width: 500px;
+    height: 400px;
 }
 
 
-h1 {
+.session-title  {
     color: navy;
     text-align: center;
     padding: 10px;
     margin-block-end: 25px; 
 }
 
-h5{
+.session-subtitle {
     color: darkgrey;
     text-align: center;
     margin-block-end: 50px;
 }
 
-p {
+.body p {
     font-size: 16px;
     padding: 10px;
 }
 
 th, td {
-    border-bottom: 10px solid #ddd;
+    border-bottom: 10px solid lightslategray;
   }
 
-/* 
-@media (min-width: 1200px) {
-    .row [class*="col-lg-"] + [class*="col-lg-"] {
-        margin-top: 0;
-    }
+.page-footer p{
+    color: rgba(255,255,255,.5);
+    display: inline;
 }
-@media (min-width: 992px) {
-    .row [class*="col-md-"] + [class*="col-md-"] {
-        margin-top: 0;
+
+
+/* for md screen */
+@media only screen and (max-width: 768px) {
+    .side-img {
+        float: left;
+        width: 50%;
     }
-}
-@media (min-width: 768px) {
-    .row [class*="col-sm-"] + [class*="col-sm-"] {
-        margin-top: 0;
+    .img-comparison {
+        float: left;
+        width: 100%;
     }
-} */
+  }
+  
+  /* for phone screen */
+  @media only screen and (max-width: 480px) {
+    .side-img {
+        float: left;
+        width: 100%;
+    }
+    .img-comparison {
+        float: left;
+        width: 100%;
+    }
+  }

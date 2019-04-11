@@ -48,9 +48,11 @@
     <div class="row">
         <div class="col-md-8">
             <div class="box box-left">
-                <h1>Summary: Latitude vs. X</h1>
+                <h1 class="session-title">
+                    Summary: Latitude vs. X
+                </h1>
                 <div>
-                    <img src="Resources/assets/images/lat_temp.png" alt="Temperature" height="300" width="400">    
+                    <img src="Resources/assets/images/lat_temp.png" alt="Temperature">    
                 </div>
                 
                 <p>
@@ -68,30 +70,36 @@
         </div>
             <div class="col-md-4">
                 <div class="box box-right">
-                    <h1>
+                    <h1 class="session-title">
                         Visualizations
                     </h1>
                     <div class="row">
-                        <a href="temp.html"> 
-                            <img src="Resources/assets/images/lat_temp.png" alt="Temperature" height="150" width="200">
-                        </a>
-                        <a href="humidity.html"> 
-                            <img src="Resources/assets/images/lat_humidity.png" alt="Humidity" height="150" width="200">   
-                        </a>    
+                        <img class="side-img" src="Resources/assets/images/lat_temp.png" alt="Temperature">
+                        <img class="side-img" src="Resources/assets/images/lat_humidity.png" alt="Humidity">   
                     </div>
                     <div class="row">
-                        <a  href="cloudiness.html"> 
-                        <img src="Resources/assets/images/lat_cloudiness.png" alt="Cloudiness" height="150" width="200">  
-                        </a>
-                        <a  href="wind.html"> 
-                        <img src="Resources/assets/images/lat_wind.png" alt="Wind" height="150" width="200"> 
-                        </a>  
+                        <img class="side-img"  src="Resources/assets/images/lat_cloudiness.png" alt="Cloudiness">  
+                        <img class="side-img"  src="Resources/assets/images/lat_wind.png" alt="Wind"> 
                     </div>
 
                 </div>
             </div>
     </div>
 
+
+    <footer class="page-footer bg-dark fixed-bottom">
+
+
+        <div class="footer-copyright text-center py-3">
+            <p>
+                © 2019 Copyright:
+            </p>
+            <a href="https://github.com/deottoni/Weather_Visualization_Dashboard">
+                <img src="Resources/assets/images/Octocat.png" alt="github_logo" height="30px" width="30px">
+            </a>
+        </div>
+        
+    </footer>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
